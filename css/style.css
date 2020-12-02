@@ -122,6 +122,22 @@ img, template {
 	color: rgba(0, 0, 0, 0.9);
 }
 
-@media (max-width: 768px) {}
 
-@media (max-width: 1024px) {}
+@media (min-width: 769px) {
+
+.wrap{
+width: 90%;
+margin: 0 auto;
+
+}
+	}
+
+}
+
+@media (min-width: 1024px) {
+
+	.wrap{
+		width: 90%;
+		margin: 0 auto;
+
+}
