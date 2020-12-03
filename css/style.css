@@ -1,4 +1,3 @@
-
 body {
 	background: #2a2a2a;
 }
@@ -15,15 +14,12 @@ body {
 }
 
 ul {
-	
 	margin-top: 0;
 	padding: 0;
 }
+
 ol {
-	
-
-margin-top: 30%;
-
+	margin-top: 30%;
 }
 
 p, h1 {
@@ -32,16 +28,14 @@ p, h1 {
 	line-height: 180%;
 }
 
-h1, h2 {
+h1,{
 	text-transform: uppercase;
 	font-size: x-large;
 	text-align: center;
 	background-color: pink;
 }
 
-h2 {
-	margin-top: 150px;
-}
+
 
 p {
 	margin-top: 100px;
@@ -56,45 +50,49 @@ p {
 	margin-bottom: 4em;
 }
 
-#logo{
+#logo {
 	text-decoration: none;
 	color: rgb(41, 37, 37);
 	margin-bottom: 4em;
 }
 
-#logo img {
-	display: inline-block;
-	margin-bottom: 1em;
-	border-radius: 20%;
-	width: 100%;
-}
+
 
 .template {
 	color: white;
 	border-style: solid;
 	text-align: center;
-	background-color: crimson;	
+	background-color: crimson;
+}
+.title {
+margin-top: 25%;
+
+
 }
 
 img, template {
 	max-width: 100%;
-
 }
 
-#menu li a, #menu li span {
+a, span {
 	display: block;
 	padding: 2em 1.5em;
 	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: rgba(255, 255, 255, 0.5);
+	color: rgba(209, 197, 209, 0.5);
+}
+a:hover{
+color: rgb(158, 157, 241);
+background: #283b72;
+
+}
+a:active{
+	color:red;
+
 }
 
-#menu .menu1 a {
-	background: #2980b9;
-	color: rgba(255, 255, 255, 1);
-}
 
 #main {
 	width: auto;
@@ -121,7 +119,7 @@ img, template {
 
 @media (min-width: 768px) {
 	.wrap {
-		width: 90%;
+		width: 100%;
 		margin: 0 auto;
 	}
 	h1, h2 {
@@ -138,6 +136,36 @@ img, template {
 		border-color: rgb(255, 0, 157);
 		width: 85%;
 	}
+	a:hover{
+		color: rgb(135, 220, 235);
+		background: #047386;
+		
+		}
+		a:active{
+			color:red;
+
+		}
+		p {
+font-size: 150%;
+
+
+		}
+		.title {
+margin-top: 18%;
+
+		}
+		ol {
+			font-size: 200%;
+			line-height: 200%;
+			
+} 
+#pic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	width: 80%;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -145,4 +173,15 @@ img, template {
 		width: 90%;
 		margin: 0 auto;
 	}
+	a:hover{
+		color: rgb(135, 220, 235);
+		background: #260db3;
+		
+		}
+		a:active{
+			color:red;
+
+		}
+		
+		}
 }
