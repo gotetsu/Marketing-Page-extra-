@@ -88,11 +88,10 @@ a:active {
 }
 
 #main {
-	
 	background: rgb(230, 206, 199);
 }
 
-#pic {
+#pic1, #pic2, #pic3 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -207,7 +206,7 @@ span {
 }
 
 @media (min-width: 1024px) {
-	img {
+	#profile1 {
 		display: none;
 	}
 	#grab {
