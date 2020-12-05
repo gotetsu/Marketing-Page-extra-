@@ -4,9 +4,8 @@ body {
 
 .wrap {
 	overflow: hidden;
-	margin: 0em auto;
 	width: 320px;
-	background: #2a2a2a;
+	margin: 0 auto;
 }
 
 .background-img {
@@ -22,41 +21,33 @@ ol {
 	margin-top: 30%;
 }
 
-p, h1 {
-	color: rgb(0, 0, 0);
-	text-align: center;
-	line-height: 180%;
-}
-
-h1,{
-	text-transform: uppercase;
-	font-size: x-large;
-	text-align: center;
-	background-color: pink;
-}
-
-
-
 p {
+	text-align: center;
+	line-height: 250%;
 	margin-top: 100px;
 }
 
-.title {
-	margin-bottom: 3em;
+h1 {
+	color: rgb(148, 194, 122);
+	border-style: double;
+	border-color: rgb(104, 96, 22) rgb(230, 37, 220)
+}
+
+h2 {
+	color: rgba(5, 28, 231, 0.911);
+	text-align: center;
+	font-size: 180%;
+	background-color: rgb(226, 233, 124);
+	text-transform: capitalize;
 }
 
 #logo {
 	text-align: center;
 	margin-bottom: 4em;
-}
-
-#logo {
 	text-decoration: none;
 	color: rgb(41, 37, 37);
 	margin-bottom: 4em;
 }
-
-
 
 .template {
 	color: white;
@@ -64,10 +55,9 @@ p {
 	text-align: center;
 	background-color: crimson;
 }
+
 .title {
-margin-top: 25%;
-
-
+	margin-top: 25%;
 }
 
 img, template {
@@ -81,25 +71,40 @@ a, span {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: rgba(209, 197, 209, 0.5);
-}
-a:hover{
-color: rgb(158, 157, 241);
-background: #283b72;
-
-}
-a:active{
-	color:red;
-
+	color: rgba(253, 159, 253, 0.5);
 }
 
+a:hover {
+	color: rgb(158, 157, 241);
+	background: #283b72;
+}
+
+a:active {
+	color: red;
+}
 
 #main {
-	width: auto;
-	background: #FFF;
+	width: 0 auto;
+	background: rgb(230, 206, 199);
 }
 
-#copyright span {
+#pic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25%;
+	width: 80%;
+}
+
+#pic3 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	width: 80%;
+}
+
+span {
 	display: block;
 	letter-spacing: 0.20em;
 	line-height: 2.5em;
@@ -107,81 +112,90 @@ a:active{
 	text-transform: uppercase;
 	font-size: 0.80em;
 	color: rgba(0, 0, 0, 0.7);
-	overflow: hidden;
 	padding: 5em 0em;
 	border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-#copyright {
-	text-decoration: solid;
-	color: rgba(0, 0, 0, 0.9);
+#pie {
+	color: red;
+}
+
+footer .copyright {
+	margin: auto;
+	font-size: .99em;
+	color: rgb(10, 10, 10);
+}
+
+footer li {
+	display: inline-block;
+}
+
+#git {
+	text-indent: -2px;
+}
+
+.social {
+	display: inline-block;
+	border-radius: 50%;
+	background-color: black;
+	text-transform: uppercase;
+	text-indent: -9px;
+	width: 56px;
+	height: 23px;
+	opacity: .85;
 }
 
 @media (min-width: 768px) {
 	.wrap {
-		width: 100%;
+		width: 98%;
 		margin: 0 auto;
 	}
-	h1, h2 {
-		text-transform: uppercase;
-		font-size: x-large;
-		text-align: center;
-		background-color: rgb(204, 192, 255);
+	h1 {
+		background-color: rgb(34, 13, 53);
 	}
 	#logo img {
-		display: inline-block;
-		margin-bottom: 1em;
-		border-radius: 50%;
-		border-style: solid;
-		border-color: rgb(255, 0, 157);
-		width: 85%;
+		width: 98%;
 	}
-	a:hover{
+	a:hover {
 		color: rgb(135, 220, 235);
 		background: #047386;
-		
-		}
-		a:active{
-			color:red;
-
-		}
-		p {
-font-size: 150%;
-
-
-		}
-		.title {
-margin-top: 18%;
-
-		}
-		ol {
-			font-size: 200%;
-			line-height: 200%;
-			
-} 
-#pic {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10%;
-	width: 80%;
-  }
+	}
+	a:active {
+		color: red;
+	}
+	p {
+		font-size: 150%;
+	}
+	.title {
+		margin-top: 18%;
+	}
+	ol {
+		font-size: 200%;
+		line-height: 200%;
+	}
+	#pic {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10%;
+		width: 80%;
+	}
+	#pic3 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10%;
+		width: 80%;
+	}
+	.social {
+		margin-left: 110px;
+	}
 }
 
 @media (min-width: 1024px) {
-	.wrap {
-		width: 90%;
-		margin: 0 auto;
-	}
-	a:hover{
-		color: rgb(135, 220, 235);
-		background: #260db3;
-		
-		}
-		a:active{
-			color:red;
 
-		}
-		
-		}
+
+
+
+	
 }
