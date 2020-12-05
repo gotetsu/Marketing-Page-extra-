@@ -5,7 +5,7 @@ body {
 .wrap {
 	overflow: hidden;
 	width: 320px;
-	margin: 0 auto;
+	width: 100%;
 }
 
 .background-img {
@@ -47,6 +47,10 @@ h2 {
 	text-decoration: none;
 	color: rgb(41, 37, 37);
 	margin-bottom: 4em;
+}
+
+.kani {
+	background-image: radial-gradient(rgb(37, 228, 11), rgb(0, 217, 255), rgb(241, 82, 220));
 }
 
 .template {
@@ -120,29 +124,33 @@ span {
 	color: red;
 }
 
-footer .copyright {
+.copyright {
 	margin: auto;
 	font-size: .99em;
 	color: rgb(10, 10, 10);
 }
 
-footer li {
-	display: inline-block;
+.social1 {
+	color: transparent;
+	text-justify: auto;
+	background-image: url(/image/twitter.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-decoration: none;
 }
 
-#git {
-	text-indent: -2px;
+.social2 {
+	color: transparent;
+	background-image: url(/image/linkedin.svg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
-.social {
-	display: inline-block;
-	border-radius: 50%;
-	background-color: black;
-	text-transform: uppercase;
-	text-indent: -9px;
-	width: 56px;
-	height: 23px;
-	opacity: .85;
+.social3 {
+	color: transparent;
+	background-image: url(/image/github.svg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 @media (min-width: 768px) {
@@ -187,15 +195,51 @@ footer li {
 		margin-top: 10%;
 		width: 80%;
 	}
-	.social {
-		margin-left: 110px;
+	.menu {
+		font-size: 25px;
+	}
+	ol li {
+		margin-left: 5%;
+	}
+	.kani {
+		background-image: radial-gradient(rgb(37, 228, 11), rgb(0, 217, 255), rgb(241, 82, 220));
 	}
 }
 
 @media (min-width: 1024px) {
-
-
-
-
-	
+	img {
+		display: none;
+	}
+	#grab {
+		display: inline;
+		width: 100%;
+	}
+	.menu {
+		margin-top: 100px;
+		padding-top: 150px;
+	}
+	p {
+		margin-top: 200px;
+		font-size: 30px;
+	}
+	h1, h2 {
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 50px;
+	}
+	ol {
+		margin-left: 100px;
+	}
+	.kani {
+		background-image: radial-gradient(rgb(37, 228, 11), rgb(0, 217, 255), rgb(241, 82, 220));
+	}
+	#grab {
+		display: flex;
+		border;
+		border-color: rgb(78, 205, 243);
+		margin: 0 auto;
+		align-items: center;
+		width: 90%;
+		border-radius: 50%;
+		border-width: 20px;
+	}
 }
