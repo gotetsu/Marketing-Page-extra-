@@ -25,6 +25,7 @@ p {
 	text-align: center;
 	line-height: 250%;
 	margin-top: 100px;
+	font-family: 'Libre Baskerville', serif;
 }
 
 h1 {
@@ -172,6 +173,7 @@ span {
 	}
 	p {
 		font-size: 150%;
+		
 	}
 	.title {
 		margin-top: 18%;
@@ -206,6 +208,7 @@ span {
 }
 
 @media (min-width: 1024px) {
+	
 	#profile1 {
 		display: none;
 	}
@@ -218,6 +221,7 @@ span {
 		padding-top: 150px;
 	}
 	p {
+		
 		margin-top: 200px;
 		font-size: 30px;
 	}
@@ -239,5 +243,15 @@ span {
 		width: 90%;
 		border-radius: 50%;
 		border-width: 20px;
+	}
+	a:hover, .menu {
+		color: red;
+		cursor: progress;
+		
+	}
+	p {
+		font-family: 'Architects Daughter', cursive;
+		
+
 	}
 }
